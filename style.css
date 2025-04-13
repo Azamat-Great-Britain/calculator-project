@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  header nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  header nav button {
+    margin-left: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #444;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  
+  form label {
+    margin-top: 10px;
+  }
+  
+  form input, form textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  form button:hover {
+    background-color: #333;
+  }
+  
+  footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .dark-theme {
+    background-color: #222;
+    color: #eee;
+  }
+  
+  .dark-theme header nav {
+    background-color: #111;
+  }
+  
+  .dark-theme footer {
+    background-color: #111;
+  }
+  
+  .dark-theme form input, 
+  .dark-theme form textarea {
+    background-color: #333;
+    color: #eee;
+    border: 1px solid #555;
+  }
+  

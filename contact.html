@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="index.html">Главная</a>
+          <a href="about.html">О себе</a>
+          <a href="projects.html">Проекты</a>
+          <a href="contact.html">Контакты</a>
+          <button id="theme-toggle">🌙</button>
+        </nav>
+      </header>
+        
+
+  <main>
+    <h1>Контакты</h1>
+
+    <section>
+      <h2>Форма обратной связи</h2>
+      <form action="https://formspree.io/f/mpwpbeqg" method="POST">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Сообщение:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+
+      
+      
+    <section>
+      <h2>Контактная информация</h2>
+      <p>Email: <a href="mailto:azamatsmail@mail.ru">azamatsmail@mail.ru</a></p>
+      <p>Социальные сети:</p>
+      <ul>
+        <li><a href="https://t.me/твой_ник" target="_blank">Telegram</a></li>
+        <li><a href="https://instagram.com/твой_ник" target="_blank">Instagram</a></li>
+        <li><a href="https://linkedin.com/in/твой_профиль" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/твой_ник" target="_blank">GitHub</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Азамат</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
